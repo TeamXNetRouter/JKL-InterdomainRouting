@@ -52,7 +52,7 @@ Follow the instructions below to get the system up and running:
 2. Navigate to the project directory:
 
     ```bash
-    cd interdomain-routing
+    cd JKL-InterdomainRouting
     ```
 
 3. Run the scenario one using the following command:
@@ -63,23 +63,27 @@ Follow the instructions below to get the system up and running:
 
 4. To test the scenario one, you can use the following command in the terminal:
 
+   Notes: We apologize that these steps cannot be performed because our existing frr.conf cannot be read by our code. You can test it by reconfiguring manually according to our configuration.
+   
     ```bash
     C1_1 traceroute -n C3_1
     ```
 
-5. Before you run the scenario two, my recommended is you should exit first from scenario one:
+6. Before you run the scenario two, my recommended is you should exit first from scenario one:
 
     ```bash
     exit
     ```
 
-6. Run the scenario two using the following command:
+7. Run the scenario two using the following command:
 
     ```bash
     sudo python3 bgp-topo.py -c frr-config-scenario2
     ```
 
-7. To test the scenario two, you can use this two following command in the terminal:
+8. To test the scenario two, you can use this two following command in the terminal:
+
+   Notes: We apologize that these steps cannot be performed because our existing frr.conf cannot be read by our code. You can test it by reconfiguring manually according to our configuration.
 
     ```bash
     C1_1 traceroute -n C2_1
